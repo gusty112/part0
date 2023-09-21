@@ -1,0 +1,11 @@
+sequenceDiagram
+  participant browser
+  participant server
+
+  browser->>server: POST form action new_note 
+  activate server
+  server->>browser: GET list of notes
+  deactivate server
+
+  
+  

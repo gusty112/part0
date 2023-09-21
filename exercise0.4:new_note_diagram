@@ -6,6 +6,3 @@ sequenceDiagram
   activate server
   server->>browser: GET list of notes
   deactivate server
-
-  
-  
